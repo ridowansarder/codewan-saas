@@ -6,27 +6,27 @@ export const Navlinks = [
     },
     {
         id: 2,
-        url: "#",
+        url: "#about",
         label: "About",
     },
     {
         id: 3,
-        url: "#",
+        url: "#services",
         label: "Services",
     },
     {
         id: 4,
-        url: "#",
+        url: "#portfolio",
         label: "Portfolio",
     },
     {
         id: 5,
-        url: "#",
+        url: "#blog",
         label: "Blog",
     },
     {
         id: 6,
-        url: "#",
+        url: "#contact",
         label: "Contact",
     },
 ]
