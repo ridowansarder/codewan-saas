@@ -9,7 +9,7 @@ const Hero = () => {
             A Top Software Development Company in Bangladesh
           </p>
 
-          <h1 className="text-4xl lg:text-5xl font-extrabold leading-tight mb-6">
+          <h1 className="text-2xl lg:text-5xl font-extrabold leading-tight mb-6">
             Transform your ideas into
             <br />
             <span className="bg-amber-500 bg-clip-text text-transparent">
