@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-[80%] mx-auto my-8 bg-gray-700 h-[1px]"></div>
-      <div className="text-center text-emerald-50">© {new Date().getFullYear()} Webdev. All rights reserved</div>
+      <div className="text-center text-emerald-50">© {new Date().getFullYear()} Codewan. All rights reserved</div>
     </footer>
   );
 };
