@@ -9,7 +9,7 @@ const Hero = () => {
             A Top Software Development Company in Bangladesh
           </p>
 
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold leading-tight mb-6">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-6xl font-extrabold leading-tight mb-6">
             Transform your ideas into
             <span className="bg-amber-500 bg-clip-text text-transparent">
               {" "}powerful digital products
@@ -30,7 +30,7 @@ const Hero = () => {
           </a>
         </div>
         <div className="lg:block hidden mx-auto">
-          <Image src='/hero.jpg' alt="hero" width={300} height={300} className="rounded-xl"/>
+          <Image src='/hero.jpg' alt="hero" width={400} height={400} className="rounded-xl"/>
         </div>
       </div>
     </section>
