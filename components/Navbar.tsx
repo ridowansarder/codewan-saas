@@ -1,6 +1,6 @@
 "use client";
 import { Braces, Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Navlinks } from "@/constant/constant";
 import clsx from "clsx";
 import { Button } from "./ui/button";
@@ -8,12 +8,23 @@ import ThemeToggler from "./ThemeToggler";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 90) setIsScrolled(true);
+      else setIsScrolled(false);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <nav
-      className={
-        "transition-all duration-200 h-16 bg-emerald-950 text-emerald-50 w-full z-50 fixed py-3"
-      }
+      className={`transition-all ${
+        isScrolled ? "bg-emerald-800" : "bg-emerald-950"
+      } duration-200 h-16 text-emerald-50 w-full z-50 fixed py-3`}
     >
       {/* desktop nav */}
       <div className="flex items-center justify-between h-full mx-auto w-[90%] xl:w-[80%]">
@@ -21,7 +32,9 @@ const Navbar = () => {
           <div className="w-8 h-8 rounded-full flex items-center justify-center">
             <Braces className="text-amber-400 h-6 w-6" />
           </div>
-          <h1 className="text-xl sm:block hidden lg:text-2xl font-bold">Codewan</h1>
+          <h1 className="text-xl sm:block hidden lg:text-2xl font-bold">
+            Codewan
+          </h1>
         </div>
         <div className="hidden lg:flex items-center space-x-8">
           {Navlinks.map((link) => (

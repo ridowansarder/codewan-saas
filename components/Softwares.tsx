@@ -3,8 +3,8 @@ import { Button } from "./ui/button";
 
 const Softwares = () => {
   return (
-    <section className="py-8">
-      <div className="text-center">
+    <section className="py-16">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-center" className="text-center">
         <p className="text-sm md:text-2xl uppercase text-emerald-600 dark:text-emerald-50 font-semibold">
           Softwares
         </p>
@@ -13,7 +13,7 @@ const Softwares = () => {
         </h1>
       </div>
       <div className="w-[80%] mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-        <div className="flex flex-col items-start space-y-3 my-8 sm:space-y-0 gap-6 bg-emerald-100 dark:bg-gray-800 p-6 rounded-lg">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100" className="flex flex-col items-start space-y-3 my-8 sm:space-y-0 gap-6 bg-emerald-100 dark:bg-gray-800 p-6 rounded-lg">
           <Goal className="w-12 h-12 dark:text-amber-400" />
           <div className="flex-1">
             <h1 className="text-xl lg:text-2xl font-bold">Free Intregation</h1>
@@ -26,7 +26,7 @@ const Softwares = () => {
             </Button>
           </div>
         </div>
-        <div className="flex flex-col items-start space-y-3 my-8 sm:space-y-0 gap-6 bg-emerald-100 dark:bg-gray-800 p-6 rounded-lg">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200" className="flex flex-col items-start space-y-3 my-8 sm:space-y-0 gap-6 bg-emerald-100 dark:bg-gray-800 p-6 rounded-lg">
           <ChartNoAxesColumn className="w-12 h-12 dark:text-amber-400" />
           <div className="flex-1">
             <h1 className="text-xl lg:text-2xl font-bold">
@@ -41,7 +41,7 @@ const Softwares = () => {
             </Button>
           </div>
         </div>
-        <div className="flex flex-col items-start space-y-3 my-8 sm:space-y-0 gap-6 bg-emerald-100 dark:bg-gray-800 p-6 rounded-lg">
+        <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300" className="flex flex-col items-start space-y-3 my-8 sm:space-y-0 gap-6 bg-emerald-100 dark:bg-gray-800 p-6 rounded-lg">
           <Cpu className="w-12 h-12 dark:text-amber-400" />
           <div className="flex-1">
             <h1 className="text-xl lg:text-2xl font-bold">Best Marketing Software</h1>

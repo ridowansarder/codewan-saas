@@ -11,7 +11,7 @@ import {
 
 const Services = () => {
   return (
-    <section id="services" className="py-8">
+    <section id="services" className="py-16">
       <div className="w-[80%] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="uppercase font-bold">
@@ -31,8 +31,8 @@ const Services = () => {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 items-center mt-16">
-          <div className="p-6 dark:bg-gray-700 transition-all duration-500 shadow rounded-xl bg-gray-100 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-100 text-black cursor-pointer hover:scale-[1.02]">
+        <div data-aos="fade-right" data-aos-anchor-placement="top-center" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 items-center mt-16">
+          <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="50" className="p-6 dark:bg-gray-700 transition-all duration-500 shadow rounded-xl bg-gray-100 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-100 text-black cursor-pointer hover:scale-[1.02]">
             <Code className="w-8 h-8 text-emerald-700 dark:text-amber-500  " />
             <h1 className="text-xl font-semibold my-3 text-emerald-700 dark:text-amber-500">
               Custom Softwares Development
@@ -47,7 +47,7 @@ const Services = () => {
               <ExternalLink className="w-6 h-6 ml-3 text-emerald-700 dark:text-amber-500 " />
             </div>
           </div>
-          <div className="p-6 dark:bg-gray-700 transition-all duration-500 shadow rounded-xl bg-gray-100 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-100 text-black cursor-pointer hover:scale-[1.02]">
+          <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="100" className="p-6 dark:bg-gray-700 transition-all duration-500 shadow rounded-xl bg-gray-100 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-100 text-black cursor-pointer hover:scale-[1.02]">
             <MonitorSmartphone className="w-8 h-8 text-emerald-700 dark:text-amber-500 " />
             <h1 className="text-xl font-semibold my-3 text-emerald-700 dark:text-amber-500">
               Website Design and Development
@@ -62,7 +62,7 @@ const Services = () => {
               <ExternalLink className="w-6 h-6 ml-3 text-emerald-700 dark:text-amber-500 " />
             </div>
           </div>
-          <div className="p-6 dark:bg-gray-700 transition-all duration-500 shadow rounded-xl bg-gray-100 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-100 text-black cursor-pointer hover:scale-[1.02]">
+          <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="150" className="p-6 dark:bg-gray-700 transition-all duration-500 shadow rounded-xl bg-gray-100 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-100 text-black cursor-pointer hover:scale-[1.02]">
             <Smartphone className="w-8 h-8 text-emerald-700 dark:text-amber-500 " />
             <h1 className="text-xl font-semibold my-3 text-emerald-700 dark:text-amber-500">
               Android & iOS App Development
@@ -77,7 +77,7 @@ const Services = () => {
               <ExternalLink className="w-6 h-6 ml-3 text-emerald-700 dark:text-amber-500 " />
             </div>
           </div>
-          <div className="p-6 dark:bg-gray-700 transition-all duration-500 shadow rounded-xl bg-gray-100 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-100 text-black cursor-pointer hover:scale-[1.02]">
+          <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="200" className="p-6 dark:bg-gray-700 transition-all duration-500 shadow rounded-xl bg-gray-100 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-100 text-black cursor-pointer hover:scale-[1.02]">
             <Cpu className="w-8 h-8 text-emerald-700 dark:text-amber-500 " />
             <h1 className="text-xl font-semibold my-3 text-emerald-700 dark:text-amber-500">
               AI & Machine Learning Integration
@@ -92,7 +92,7 @@ const Services = () => {
               <ExternalLink className="w-6 h-6 ml-3 text-emerald-700 dark:text-amber-500 " />
             </div>
           </div>
-          <div className="p-6 dark:bg-gray-700 transition-all duration-500 shadow rounded-xl bg-gray-100 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-100 text-black cursor-pointer hover:scale-[1.02]">
+          <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="250" className="p-6 dark:bg-gray-700 transition-all duration-500 shadow rounded-xl bg-gray-100 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-100 text-black cursor-pointer hover:scale-[1.02]">
             <Server className="w-8 h-8 text-emerald-700 dark:text-amber-500 " />
             <h1 className="text-xl font-semibold my-3 text-emerald-700 dark:text-amber-500">
               Cloud Computing and Hosting Service
@@ -107,7 +107,7 @@ const Services = () => {
               <ExternalLink className="w-6 h-6 ml-3 text-emerald-700 dark:text-amber-500 " />
             </div>
           </div>
-          <div className="p-6 dark:bg-gray-700 transition-all duration-500 shadow rounded-xl bg-gray-100 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-100 text-black cursor-pointer hover:scale-[1.02]">
+          <div data-aos="fade-right" data-aos-anchor-placement="top-center" data-aos-delay="300" className="p-6 dark:bg-gray-700 transition-all duration-500 shadow rounded-xl bg-gray-100 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-100 text-black cursor-pointer hover:scale-[1.02]">
             <Palette className="w-8 h-8 text-emerald-700 dark:text-amber-500 " />
             <h1 className="text-xl font-semibold my-3 text-emerald-700 dark:text-amber-500">UI/UX Design</h1>
             <p>

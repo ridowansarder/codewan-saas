@@ -5,9 +5,9 @@ import { ArrowRight } from "lucide-react";
 
 const About = () => {
   return (
-    <section id="about" className="py-8">
+    <section id="about" className="py-16">
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-        <div>
+        <div data-aos="fade-right">
           <Image
             src="/hero.jpg"
             alt="about"
@@ -16,7 +16,7 @@ const About = () => {
             className="rounded-lg"
           />
         </div>
-        <div className="lg:ml-auto">
+        <div data-aos="fade-left" data-aos-delay="150" className="lg:ml-auto">
           <p className="text-sm md:text-2xl uppercase text-emerald-600 dark:text-emerald-50 font-semibold">
             About Us
           </p>

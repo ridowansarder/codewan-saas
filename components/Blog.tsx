@@ -4,7 +4,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <section className="py-8">
+    <section className="py-16">
       <div className="text-center">
         <p className="text-sm md:text-2xl uppercase text-emerald-600 dark:text-emerald-50 font-semibold">
           Latest Blogs
@@ -14,8 +14,12 @@ const Blog = () => {
           Our Blog Posts
         </h1>
       </div>
-      <div className="w-[80%] mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
-        <div>
+      <div className="w-[80%] mx-auto mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
+        <div
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="50"
+        >
           <Image
             src="/b1.jpg"
             alt="Blog"
@@ -41,7 +45,11 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="100"
+        >
           <Image
             src="/b2.jpg"
             alt="Blog"
@@ -67,7 +75,11 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="150"
+        >
           <Image
             src="/b3.jpg"
             alt="Blog"

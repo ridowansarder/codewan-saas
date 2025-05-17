@@ -3,7 +3,8 @@ import { Rajdhani } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Provider from "@/components/HOC/Provider";
-// import Footer from "@/components/Footer";
+import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const font = Rajdhani({
   subsets: ["latin"],
@@ -22,13 +23,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${font.className} antialiased`}
-      >
+      <body className={`${font.className} antialiased`}>
         <Provider>
           <Navbar />
           {children}
-          {/* <Footer /> */}
+          <Footer />
+          <ScrollToTop />
         </Provider>
       </body>
     </html>

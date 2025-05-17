@@ -64,9 +64,13 @@ const projectsList = [
 
 const Projects = () => {
   return (
-    <section id="portfolio" className="py-8">
+    <section id="portfolio" className="py-16">
       <div className="w-[80%] mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div
+          data-aos="fade-right"
+          data-aos-anchor-placement="top-center"
+          className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center"
+        >
           <div className="uppercase font-bold">
             <h1 className="text-sm lg:text-xl text-emerald-700 dark:text-amber-400">
               LATEST WORKS
@@ -87,6 +91,9 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           {projectsList.map((project) => (
             <div
+              data-aos="fade-right"
+              data-aos-anchor-placement="top-center"
+              data-aos-delay="100"
               key={project.id}
               className="shadow-lg rounded-lg overflow-hidden bg-card"
             >
@@ -99,7 +106,9 @@ const Projects = () => {
               />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <p className="text-gray-700 dark:text-gray-200 mb-4">{project.description}</p>
+                <p className="text-gray-700 dark:text-gray-200 mb-4">
+                  {project.description}
+                </p>
                 <div className="flex flex-wrap mb-8">
                   {project.tags.map((tag, index) => (
                     <span
