@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 
 const About = () => {
   return (
-    <section id="about" className="py-16">
+    <section id="about" className="py-8">
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         <div>
           <Image

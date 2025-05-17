@@ -11,7 +11,7 @@ import {
 
 const Services = () => {
   return (
-    <section id="services" className="py-16">
+    <section id="services" className="py-8">
       <div className="w-[80%] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <div className="uppercase font-bold">

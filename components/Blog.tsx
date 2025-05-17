@@ -4,7 +4,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <section className="py-16">
+    <section className="py-8">
       <div className="text-center">
         <p className="text-sm md:text-2xl uppercase text-emerald-600 dark:text-emerald-50 font-semibold">
           Latest Blogs

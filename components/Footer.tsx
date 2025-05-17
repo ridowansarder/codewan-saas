@@ -3,7 +3,7 @@ import { Braces, Facebook, Instagram, Twitter, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="py-16 bg-emerald-950">
+    <footer className="py-8 mt-8 bg-emerald-950">
       <div className="w-[80%] mx-auto items-start grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* first part */}
         <div>
