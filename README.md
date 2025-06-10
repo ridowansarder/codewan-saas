@@ -59,11 +59,9 @@ The app will be running on `http://localhost:3000`.
 
 ```plaintext
 .
-├── components       # Reusable UI components
-├── pages            # Next.js pages
+├── components       # Reusable UI components and Website Sections
 ├── public           # Static assets
 ├── styles           # Global styles
-├── utils            # Utility functions (if any)
 ├── README.md
 └── ...
 ```
@@ -71,4 +69,4 @@ The app will be running on `http://localhost:3000`.
 ## 🧑‍💻 Author
 
 * **Ridowan Sarder**
-* [Your Portfolio](https://portfolio-ivory-seven-58.vercel.app/)
+* [My Portfolio](https://portfolio-ivory-seven-58.vercel.app/)
